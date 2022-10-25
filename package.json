@@ -1,14 +1,29 @@
 {
-  "name": "projeto-base",
-  "private": true,
-  "version": "0.0.0",
+  "name": "explorer-lab-01",
+  "version": "1.0.0",
+  "description": "<h1 align=\"center\"> Explorer Lab #01 </h1>",
   "type": "module",
+  "main": "index.js",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "devDependencies": {
-    "vite": "^3.1.0"
+  
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rocketseat-education/explorer-lab-01.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rocketseat-education/explorer-lab-01/issues"
+  },
+  "homepage": "https://github.com/rocketseat-education/explorer-lab-01#readme",
+  "dependencies": {
+    "imask": "^6.4.3",
+    "vite": "^3.1.8"
   }
 }
